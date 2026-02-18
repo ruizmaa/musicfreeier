@@ -10,3 +10,8 @@ musicfreeier
 
 # Coverage
 *.out
+
+# Music formats
+*.mp3
+*.flac
+*.wav
