@@ -1,7 +1,7 @@
 package main
 
-import "fmt"
+import "github.com/ruizmaa/musicfreeier/internal/cli"
 
 func main() {
-	fmt.Println("Hello world, I'm musicfreeier!")
+	cli.Execute()
 }
