@@ -1,0 +1,14 @@
+{
+  "name": "musicfreeier-dev",
+	"image": "mcr.microsoft.com/devcontainers/go:1.25",
+
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y yt-dlp",
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "golang.go"
+      ]
+    }
+  }
+}
