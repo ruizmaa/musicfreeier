@@ -2,11 +2,9 @@ name: Go CI
 
 on:
   pull_request:
-    branches:
-      - main
 
 jobs:
-  test:
+  validate-pr:
     runs-on: ubuntu-latest
 
     steps:
