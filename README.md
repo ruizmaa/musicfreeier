@@ -7,3 +7,12 @@ It acts as a layer over existing music downloading tools, exposing a simple and 
 ```bash
 musicfreeier <url>
 ```
+
+## Requirements
+
+- [yt-dlp](https://github.com/yt-dlp/yt-dlp#installation) — must be installed and available in your `PATH`
+
+```bash
+# Linux (Debian/Ubuntu)
+sudo apt install yt-dlp ffmpeg
+```
